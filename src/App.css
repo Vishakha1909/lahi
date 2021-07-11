@@ -1,20 +1,57 @@
 .App {
+  background-color: #8e4a04 ;
+  line-height: 50px;
+}
+.title{
+  text-align:center;
+  font-size: larger;
+  color: white;
+  font-weight: bold;
+  
+}
+
+.schedule upload{
+  align-items: center;
   text-align: center;
+  color:black;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.upload button:hover {
+  background-color: #660000;
+  color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.schedule label{
+  font-weight: bold;
+  font-style: italic;
 }
-
+.schedule input{
+  border-radius: 10px;
+  font-size: 16px;
+}
+.schedule label{
+  font-size:18px;
+}
+.schedule button{
+  align-items: center;
+  text-align: center;
+  color:black;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 12px;
+}
+.meeting{
+  margin-left: 5px;
+}
+.schedule button:hover {
+  background-color: #660000;
+  color: white;
+}
 .App-header {
-  background-color: #282c34;
+  background-color:#8e4a04  ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +61,5 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
